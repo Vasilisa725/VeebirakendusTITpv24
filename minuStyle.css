@@ -1,0 +1,36 @@
+body{
+    font-family: Georgia;/*fondi tüüp*/
+    color:  pink; /*teksti värv*/
+}
+h1{
+    border: solid 1px pink; /*ääris*/
+    padding: 10%; /*vahe tekstist ääriseni*/
+    margin: 10px;
+    border-radius: 60px;
+    width: 60%;
+    background-color: lavender;
+}
+h2{
+    border: dotted 1px pink; /*dashed, outline, doubline, solid*/
+    padding: 1%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 60px;
+    width: 60%; /*laius*/
+    background-color: lavender; /*tausta värv*/
+}
+ul{
+    list-style-type: circle; /*markeri tüüp - square, */
+     padding:5px;
+    background-color: lavender;
+}
+ul li{
+    background-color: yellow;
+    padding:5px;
+}
+table, td{
+    width: 60%;
+    border: solid 1px pink;
+    border-collapse: collapse;
+    text-align: center; /*teksti joondamine keskele*/
+    background-color: lavender;
+}
