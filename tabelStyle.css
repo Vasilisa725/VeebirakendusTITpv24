@@ -1,11 +1,31 @@
-table#lihtne, td{
+table#lihtne{
     /*html failis id=Lihtne*/
-    width:30%;
+    width:20%;
     border: 1px solid black;
     text-align: center;/*teksti joondamine keskele*/
     padding: 10px; /*vahe tekstist ääriseni*/
     /*border-collapse: collapse;*/
 }
+/* tabeli pseudoelementide kasutamine*/
+#lihtne tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+  background-color: lightgray;
+}
+#lihtne tr:nth-child(1) td:nth-child(2){/*2.rida 2.lahter-ячейка*/
+    background-color: yellow;
+}
+#lihtne tr:nth-child(1) td:nth-child(3){/*3.rida 3.lahter-ячейка*/
+    background-color: bisque;
+}
+#lihtne tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+    background-color: lightgray;
+}
+#lihtne tr:nth-child(2) td:nth-child(2){/*2.rida 2.lahter-ячейка*/
+    background-color: yellow;
+}
+#lihtne tr:nth-child(2) td:nth-child(3){/*3.rida 3.lahter-ячейка*/
+    background-color: lightgray;
+}
+
 table#keeruline1, table#keeruline1 td{
     /*html failis id=keerulina1*/
     width:45%;
@@ -24,3 +44,61 @@ table#keeruline2, table#keeruline2 td{
     /*border-collapse: collapse;*/
     background-color: pink;
 }
+table#keeruline3, table#keeruline3 td{
+    /*html failis id=keerulina3*/
+    width:15%;
+    border: 1px solid black;
+    text-align: center;/*teksti joondamine keskele*/
+    padding: 2px; /*vahe tekstist ääriseni*/
+    /*border-collapse: collapse;*/
+    background-color: lavender;
+}
+table#keeruline4, table#keeruline4 td{
+    width:20%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 3px;
+    background-color: hotpink;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+    background-color: yellow;
+    width: 5%;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(2){/*1.rida 2.lahter-ячейка*/
+    background-color: lightblue;
+    width: 5%;
+}
+#keeruline4 tr:nth-child(1) td:nth-child(3){/*1.rida 3.lahter-ячейка*/
+    background-color: fuchsia;
+    width: 5%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+    background-color: palegreen;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(2){/*1.rida 2.lahter-ячейка*/
+    background-color: khaki;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(2) td:nth-child(3){/*1.rida 3.lahter-ячейка*/
+    background-color: greenyellow;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+    background-color: navajowhite;
+    width: 20%;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(2){/*1.rida 2.lahter-ячейка*/
+    background-color: maroon;
+}
+#keeruline4 tr:nth-child(3) td:nth-child(3){/*1.rida 3.lahter-ячейка*/
+    background-color: olive;
+}
+#keeruline4 tr:nth-child(4) td:nth-child(1){/*1.rida 1.lahter-ячейка*/
+     background-color: lightgrey;
+}
+
+
+
+
+
+
