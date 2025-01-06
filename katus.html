@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map area kasutamine</title>
+</head>
+<body>
+<h1> Map / Area kasutamine</h1>
+<img src="majakePilt.png" alt="ilus maja" usemap="#majake">
+<map name="majake">
+    <!--ring coord= x, y -keskpunkt, R-raadius-->
+    <area shape="circle" coords="189,149,15" href="aken.html"  alt="aken">
+    <!--ristküülik-->
+    <area shape="rect" coords="109,188,278,280" href="sein.html" alt="sein">
+    <!--kolmnurk (6coords) või-->
+    <area shape="poly" coords="92,183,195,101,294,181" href="katus.html" alt="katus">
+</map>
+<div>
+    katus - hoone ülemine konstruktsioon, mis kaitseb sademete eest
+</div>
+</body>
+</html>
