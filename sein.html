@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Map area kasutamine</title>
+    <link rel="stylesheet" href="mapStyle.css">
 </head>
 <body>
-<h1> Map / Area kasutamine</h1>
+<header>
+    <h1> Map / Area kasutamine</h1>
+</header>
 <img src="majakePilt.png" alt="ilus maja" usemap="#majake">
 <map name="majake">
     <!--ring coord= x, y -keskpunkt, R-raadius-->
+    <area shape="rect" coords="169,294,198,373" href="uks.html" alt="uks">
     <area shape="circle" coords="189,149,15" href="aken.html"  alt="aken">
     <!--ristküülik-->
     <area shape="rect" coords="109,188,278,280" href="sein.html" alt="sein">
     <!--kolmnurk (6coords) või-->
     <area shape="poly" coords="92,183,195,101,294,181" href="katus.html" alt="katus">
+    <area shape="circle" coords="6,6,52,66" href="päike.html" alt="päike">
+    <area shape="rect" coords="6,351,371,374" href="muru.html" alt="muru">
 </map>
 <div>
     Sein on arhitektuuri ja ehituse konstruktsioonielement
 </div>
+<footer>
+    <strong>Vasilisa V &copy; 2025</strong>
+</footer>
 </body>
 </html>

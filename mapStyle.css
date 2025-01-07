@@ -1,0 +1,36 @@
+div{
+    width:10%;
+    height:10%;
+    border: solid 1pt deeppink;
+    position: absolute;
+    left: 12cm;
+    top: 6cm;
+    padding: 2%;
+    border-radius: 10px;
+    font-family: "DejaVu Math TeX Gyre", cursive;
+    background-color: pink;
+}
+footer{
+    text-align: center;
+    background-color: hotpink;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+header{
+  text-align: center;
+    background-color: hotpink;
+  width: 100%;
+    font-size: large;
+    font-variant: small-caps;
+    letter-spacing: 0.1cm;
+}
+img{
+    border: solid 1pt deeppink;
+    border-radius: 10%;
+    filter: blur(1px);
+    filter: invert(20%);
+
+
+}
