@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /*fondi tüüp*/
+    background-color:lightgrey; /*taust*/
+}
+input[type=text]{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+select {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+input[type=reset], input[type=button]{
+    padding: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: black;
+}
+table{
+    width: 50%;
+    padding: 10px;/*vahe tekstist ääriseni*/
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: 5px;/*vahe lehest tabelini*/
+}
+td{
+    padding: 10px;
+    text-align: left;
+}
+input[type=checkbox] + label{
+    display: inline-block;
+    width: 90px;
+    height: 10px;
+    padding: 10px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+input[type=radio] + label{
+    display: inline-block;
+    width: 90px;
+    height: 10px;
+    padding: 10px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    line-height: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+input[type=color]{
+    width: 95%;
+}
+input[type=date]{
+    width: 95%;
+}
+
+
+
+
+
